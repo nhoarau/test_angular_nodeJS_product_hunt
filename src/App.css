@@ -1,0 +1,104 @@
+.card {
+    width: 18rem;
+    height: 30rem;
+    margin: .2rem;
+    text-align: center;
+}
+/* 
+.card:hover {
+    background-color: rgba(88, 70, 70, 0.473);
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+} */
+
+.card .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 1em;
+    top: 0;
+    z-index: 10;
+    color: #fff;
+    -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
+
+.card:hover .overlay{background: rgba(218, 216, 216, 0.575);}
+
+.board-img {
+    width: 10rem;
+    height: 15rem;
+}
+
+.fault-text {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.card-body {
+    margin-bottom: 0rem;
+    color: black;
+}
+
+#equipmentBoard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    float: right;
+}
+
+#equipmentBoard::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.equipmentCard {
+    display: flex;
+    margin: 2rem;
+}
+
+#filter{
+    background-color: #e7eef1;
+    padding: 40px 40px 60px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0 12px 0 -6px #fa90a3;
+
+    position: fixed;
+    left: 3%;
+    top: 15%;
+    width: 25%;
+    float: left;
+}
+
+.filter-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-domain {
+    margin: 1rem 0 0 0;
+    width: 100%;
+}
+
+.select-brand {
+    margin: 1rem 0 0 0;
+    width: 100%; 
+}
+
+.spinner, .no-data {
+    margin: 0 auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+.spinner-border {
+    width: 3rem; 
+    height: 3rem;
+}
+
+.table {
+    margin: 2rem;
+}

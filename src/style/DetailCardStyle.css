@@ -1,0 +1,45 @@
+.detail-card {
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px rgb(41, 41, 41);
+    padding: 1rem;
+    width: 75rem;
+}
+
+.ligne-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    color: rgb(42, 143, 104);
+    font-size: 1.2rem;
+}
+
+.detail-content {
+    display: flex;
+}
+
+.img-display {
+    width: 40rem;
+    height: 50rem;
+    margin-right: 1rem;
+}
+
+.img-display img {
+    width: 40rem;
+    height: 50rem;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px rgb(41, 41, 41);
+}
+
+.Card2 .overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 1em;
+  top: 0;
+  z-index: 10;
+  color: #fff;
+  -moz-transition: 0.5s;-o-transition: 0.5s;-webkit-transition: 0.5s;transition: 0.5s;
+}
